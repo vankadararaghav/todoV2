@@ -2,11 +2,10 @@
   "name": "todolist",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "npm start --prefix backend",
+    "dev": "nodemon server.js --prefix backend"
   },
   "author": "",
   "license": "ISC",
